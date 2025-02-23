@@ -23,7 +23,7 @@
 ## 📐 System Architecture
 | 🎭 State Graph | 🗂️ Transition Table | ⚡ Logic Circuit |
 |-----------|-----------|-----------|
-| ![State Graph](assets/img/state_graph.png) | ![Transition Table](assets/img/transition_table.png) | ![Logic Circuit](assets/img/logic_circuit.png) |
+| <img src="assets/img/state_graph.png"> | <img src="assets/img/transition_table.png"> | <img src="assets/img/logic_circuit.png"> |
 
 ## 🌟 License
 This project is open-source. Feel free to use, modify, and contribute! 🚀
