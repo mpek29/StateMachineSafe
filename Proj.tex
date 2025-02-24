@@ -1,0 +1,73 @@
+\documentclass[a4paper, twoside]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage[margin=1.3cm]{geometry}
+\usepackage{float}
+
+\graphicspath{{./img/}}
+
+\begin{document}
+
+% Section numbering
+\setcounter{secnumdepth}{4}
+\renewcommand{\thesection}{\underline{\arabic{section}:}}
+\renewcommand{\thesubsection}{\Roman{subsection}.}
+\renewcommand{\thesubsubsection}{\arabic{subsubsection}.}
+\renewcommand{\theparagraph}{\alph{paragraph}.}
+
+% Logos
+\begin{figure}[t]
+    \begin{minipage}[b]{0.2\linewidth}
+        \raggedright \includegraphics[scale=0.5]{enib.jpg}
+    \end{minipage}\hfill
+    \begin{minipage}[b]{0.4\linewidth}    
+        \raggedleft \includegraphics[scale=0.5]{logo.jpg}
+    \end{minipage}
+\end{figure}
+
+% Title Page
+\begin{titlepage}
+\begin{center}
+ENIB Semester S3P:\\
+Electronics - Digital Circuits\\
+\vspace{2cm}
+\huge{\textsl{Design and Analysis of State Machines}\textbf{: \\
+Implementation of a Trunk Opening System and Analysis of an Acoustic Rangefinder}}\\
+\end{center}
+
+\begin{center}
+\rule{\linewidth}{1pt}
+\end{center}
+
+\begin{minipage}[t]{0.47\textwidth}
+    {\large Florian PASCO}
+\end{minipage}\hfill
+
+\vspace{2.5cm}
+
+\begin{figure}[H]
+    \centering \includegraphics[width=0.8\textwidth]{guardpage.jpg}
+\end{figure}
+
+\vspace{0.3cm}
+\centering{Version 1.0: June 4, 2022}
+\end{titlepage}
+
+% Table of Contents & Figures
+\tableofcontents
+\listoffigures
+
+\newpage
+
+\input{tex/part1}
+\newpage
+\input{tex/part2}
+
+\end{document}

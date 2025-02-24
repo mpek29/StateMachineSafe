@@ -1,0 +1,14 @@
+\section{Study of an Acoustic Rangefinder}
+The following state diagram needs to be corrected:
+
+\begin{figure}[H]
+\centering
+\includegraphics[height=9cm]{img/graph2.jpg}
+\caption{State diagram to be corrected}
+\end{figure}
+
+There are two errors in this system:
+\begin{itemize}
+    \item \textbf{Error (1):} "$\overline{Ir}$" instead of "Ir" – The loading should occur when receiving Ir.
+    \item \textbf{Error (2):} "IeIr" instead of "Ie$\overline{Ir}$" – The counting should resume when an Ie pulse is sent and no Ir pulse is received.
+\end{itemize}
